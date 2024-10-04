@@ -18,10 +18,6 @@ public class Ejer5 {
 		int numX;
 		int numY;
 		
-		numMayor = 0;
-		numX = 0;
-		numY = 0;
-		
 		// Mensaje y reader para leer los números introducidos
 		System.out.print("Introduce el primer número : ");
 		num1 = reader.nextInt();
@@ -35,16 +31,16 @@ public class Ejer5 {
 		// If para mostrar los tres números ordenados de mayor a menor
 		if (num1 > num2 && num1 > num3) {
 			numMayor = num1;
-			num2 = numX;
-			num3 = numY;
+			numX = num2;
+			numY = num3;
 		} else if (num2 > num1 && num2 > num3) {
 			numMayor = num2;
-			num1 = numX;
-			num3 = numY;
+			numX = num1;
+			numY = num3;
 		} else if (num3 > num1 && num3 > num2) {
 			numMayor = num3;
-			num1 = numX;
-			num2 = numY;
+			numX = num1;
+			numY = num2;
 		}
 		
 		if (numX > numY) {
@@ -52,6 +48,10 @@ public class Ejer5 {
 		} else if (numY > numX) {
 			System.out.print(numMayor + " > " + numY + " > " + numX);
 		}
+		
+		System.out.println(numMayor);
+		System.out.println(numX);
+		System.out.println(numY);
 		
 		reader.close();
 	}
