@@ -18,10 +18,6 @@ public class Ejer5 {
 		int numX;
 		int numY;
 		
-		numMayor = 0;
-		numX = 0;
-		numY = 0;
-		
 		// Mensaje y reader para leer los números introducidos
 		System.out.print("Introduce el primer número : ");
 		num1 = reader.nextInt();
@@ -41,7 +37,7 @@ public class Ejer5 {
 			numMayor = num2;
 			numX = num1;
 			numY = num3;
-		} else if (num3 >= num1 && num3 >= num2) {
+		} else {
 			numMayor = num3;
 			numX = num1;
 			numY = num2;
