@@ -33,24 +33,24 @@ public class Ejer5 {
 		num3 = reader.nextInt();
 		
 		// If para mostrar los tres números ordenados de mayor a menor
-		if (num1 > num2 && num1 > num3) {
+		if (num1 >= num2 && num1 >= num3) {
 			numMayor = num1;
 			numX = num2;
 			numY = num3;
-		} else if (num2 > num1 && num2 > num3) {
+		} else if (num2 >= num1 && num2 >= num3) {
 			numMayor = num2;
 			numX = num1;
 			numY = num3;
-		} else if (num3 > num1 && num3 > num2) {
+		} else if (num3 >= num1 && num3 >= num2) {
 			numMayor = num3;
 			numX = num1;
 			numY = num2;
 		}
 		
-		if (numX > numY) {
-			System.out.print(numMayor + " > " + numX + " > " + numY);
-		} else if (numY > numX) {
-			System.out.print(numMayor + " > " + numY + " > " + numX);
+		if (numX >= numY) {
+			System.out.print(numMayor + " > o = " + numX + " > o = " + numY);
+		} else if (numY >= numX) {
+			System.out.print(numMayor + " > o = " + numY + " > o = " + numX);
 		}
 		
 		reader.close();
