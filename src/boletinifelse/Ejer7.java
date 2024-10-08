@@ -15,8 +15,8 @@ public class Ejer7 {
 		System.out.print("Introduce un número comprendido entre 0 y 99999: ");
 		num = reader.nextInt();
 		
-		/* Operaciones para descubrir el número de cifras que tiene. Aunque se puede hacer de formás más eficientes
-		*/
+		/* Operaciones para descubrir el número de cifras que tiene. Aunque se puede hacer de formás más eficientes,
+		lo he hecho con if-else para dar el contenido del tema. */
 		if (num < 0 || num > 99999) {
             System.out.println("El número no está en el rango permitido.");
         } else {
