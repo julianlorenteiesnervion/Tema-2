@@ -5,6 +5,12 @@ import java.util.*;
 public class Ejer2 {
 
 	public static void main(String[] args) {
+		/* En este código, para obtener el valor absoluto,
+		 * le pedimos al usuario una entrada de número entero.
+		 * Luego, en caso de que el número sea negativo, lo
+		 * invertimos a positivo, o, en caso de que sea positivo,
+		 * simplemente se deja tal cual el usuario nos lo indicó. */
+		
 		// Creación Scanner
 		Scanner reader = new Scanner(System.in);
 		
