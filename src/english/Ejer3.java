@@ -9,9 +9,9 @@ public class Ejer3 {
 		Scanner reader = new Scanner(System.in);
 		
 		// Declaring the variables
-		int introducedHeight = 0;
-		int minHeight = 0;
-		int maxHeight = 0;
+		double introducedHeight = 0;
+		double minHeight = 0;
+		double maxHeight = 0;
 		
 		// We ask the user to type a height
 		System.out.print("Type a height: ");
@@ -38,8 +38,8 @@ public class Ejer3 {
 		}
 		
 		// Last message to the user
-		System.out.print("The minimum height is " + minHeight + ", while the"
-				+ " maximum height is " + maxHeight);
+		System.out.print("The minimum height is " + minHeight + " inches" + ", while the"
+				+ " maximum height is " + maxHeight + " inches.");
 		
 		reader.close();
 	}
