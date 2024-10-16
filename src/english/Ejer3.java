@@ -38,8 +38,8 @@ public class Ejer3 {
 		}
 		
 		// Last message to the user
-		System.out.print("The minimum height is " + minHeight + ", while the"
-				+ " maximum height is " + maxHeight);
+		System.out.print("The lowest height is " + minHeight + ", while the"
+				+ " highest height is " + maxHeight);
 		
 		reader.close();
 	}
