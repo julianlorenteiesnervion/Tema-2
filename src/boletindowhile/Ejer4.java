@@ -8,6 +8,10 @@ public class Ejer4 {
 		// Creación del Scanner
 		Scanner reader = new Scanner(System.in);
 		
+		/* Declaración de las variables num para el número
+		introducido por el usuario y num2 para usarlo como contador */
+		
+		// Le solicitamos al usuario un número
 		System.out.print("Introduce un número: ");
 		int num = reader.nextInt();
 		
