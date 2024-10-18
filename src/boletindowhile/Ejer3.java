@@ -21,6 +21,7 @@ public class Ejer3 {
 		System.out.print("Introduce un número: ");
 		numIntroducido = reader.nextInt();
 		
+		// Do-while para realizar las operaciones
 		do {
 			num2++;
 			num = num + num2;
