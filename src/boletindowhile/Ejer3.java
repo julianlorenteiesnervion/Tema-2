@@ -8,25 +8,26 @@ public class Ejer3 {
 		// Creamos el Scanner
 		Scanner reader = new Scanner(System.in);
 		
-		// Declaración de la variable num para imprimir el número
+		/* Declaración de la variable num y num2 para guardar
+		 * los dos valores de la suma y numIntroducido para guardar
+		 * el valor introducido por el usuario */
 		int num = 1;
+		int num2 = 1;
+		int numIntroducido;
 		
 		/* Le preguntamos al usuario por el número que deberá introducir
-		 * para imprimir todos los números desde el 1 (num) hasta el que
+		 * para imprimir la suma de todos los números desde el 1 (num) hasta el que
 		 * el introducirá (numIntroducido) */
 		System.out.print("Introduce un número: ");
-		// Declaramos también la variable y escaneamos la entrada
-		int numIntroducido = reader.nextInt();
+		numIntroducido = reader.nextInt();
 		
-		// Si el número es distinto de 5, realizar lo solicitado
-		if (numIntroducido != 5) {
 		do {
-			System.out.println(num);
-			num++;
-		} while (num <= numIntroducido);
-		} else { // En el caso de que sea 5, hacemos la suma de 1+2+3+4+5
-			System.out.print("1 + 2 + 3 + 4 + 5: " + (1 + 2 + 3 + 4 + 5));
-		}
+			num2++;
+			num = num + num2;
+			
+		} while (num2 < numIntroducido);
+		
+		System.out.println(num);
 	}
 
 }
