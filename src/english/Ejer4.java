@@ -18,18 +18,18 @@ public class Ejer4 {
 		introducedNum = reader.nextInt();
 		
 		// While number isn't the same as -1, the game will keep running
-		while (introducedNum != -1) {
+		while (introducedNum != -1 && introducedNum != num) {
 			System.out.print(introducedNum > num ? "Wrong, the number is lower. Try again: " : "Wrong, the number is higher. Try again: ");
 			introducedNum = reader.nextInt();
 			
 			// Number guessed
 			if (introducedNum == num) {
-			System.out.print("You've guessed the number! It was " + num);
+			System.out.print("You've guessed the number!");
 		}
 		}
 		
 		// Game over (the user typed -1)
-		System.out.print("Game over. The number was " + num);
+		System.out.print("\nThe number was " + num);
 		
 		reader.close();
 		
