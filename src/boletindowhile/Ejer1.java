@@ -8,7 +8,7 @@ public class Ejer1 {
 		
 		// Do-while para imprimir los 20 números
 		do {
-			System.out.print(num + "\n");
+			System.out.println(num);
 			num++;
 		} while (num <= 20);
 
