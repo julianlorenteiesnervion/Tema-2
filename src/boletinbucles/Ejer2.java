@@ -59,6 +59,8 @@ public class Ejer2 {
 		
 		System.out.print("Se han descubierto " + contadorPrimos + " números primos entre el 1 y"
 				+ " el " + numIntroducido + ".");
+		
+		reader.close();
 
 	}
 
