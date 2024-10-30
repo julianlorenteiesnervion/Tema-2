@@ -12,8 +12,10 @@ public class Ejer1 {
 		int num;
 		
 		// Le solicitamos el número al usuario
-		System.out.print("Introduce un número: ");
+		do {
+		System.out.print("Introduce un número mayor que 1: ");
 		num = reader.nextInt();
+		} while (num <= 1);
 		
 		/* *****
 		 * 
